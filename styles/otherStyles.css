@@ -1,0 +1,36 @@
+main{
+    background-color: #eeeeee8f;
+}
+
+.content-heops{
+    padding: 30px 0;
+    max-width: 800px;
+    min-width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.content-heops img{
+    max-width: 100%;
+    margin:0 0  20px 0;
+  
+}
+.content-heops h1{
+    /* padding: 10px 0; */
+    font-size: 40px;
+    text-align: center;
+}
+.content-heops h2{
+    font-size: 30px;
+    text-align: center; 
+}
+.div h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.content-heops p{
+    font-size: 20px;
+    padding: 20px 0;
+}

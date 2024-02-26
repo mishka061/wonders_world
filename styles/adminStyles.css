@@ -1,0 +1,57 @@
+.body-admin{
+    padding-top: 200px;
+    background-color: #5289ff42;
+}
+
+
+.form-signap{
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 400px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.form-signap h2,
+.form-signap p{
+    text-align: center;
+}
+.form-control{
+    margin: 10px;
+}
+
+.form-signap-auth{
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 400px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.error-input {
+    border: 2px solid red;
+    animation: shake 0.4s;
+}
+  
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(5px); }
+}
+  
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none; /* Сначала скрыть сообщение об ошибке */
+  }
+.password-input.error-input,
+.confirm-password-input.error-input {
+  border: 2px solid red;
+  animation: shake 0.4s;
+}
+.registrationButton,
+.authorizationButton{
+    margin: 0 10px;
+}

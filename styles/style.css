@@ -1,0 +1,374 @@
+*{
+    font-family: 'Young Serif', serif;
+}
+html, 
+body{
+    font-size: 16px; 
+    overflow-x: hidden;
+}
+.button{
+	position: fixed; 
+    bottom: 10px; 
+    right: 10px;
+	z-index: 1;
+}
+.button-icon{
+    width: 40px;
+    border-radius: 50px;
+}
+#header{
+    background-color: #9e9e9e;
+    display: grid;
+    grid-template-columns: 15% 40% auto 12%;
+    width: auto;
+}
+.addWondersButton{
+    margin: 20px 0;
+}
+.addWonders{
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+}
+.headerAuthUser{
+    display: grid;
+}
+
+.headerAuthUser p{
+    text-align: end;
+    font-size: 36px;
+    color: #ffffff;
+}
+.header{
+    height: 80px;
+    background-color: #9e9e9e;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 0;
+
+}
+.footer{
+    height: 50px;
+    background-color: #9e9e9e; 
+    text-align: center;
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    right: 0;
+}
+.footer p{
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px;
+}
+.headerExitBtn{
+    text-align: end;
+}
+.exit{
+    margin: 20px ;
+    background-color: #666666;
+    color: #fffefe;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.addWondersButton,
+.addWondersButton1,
+.indexButton,
+.registrationButton, 
+.authorizationButton{
+    margin: 20px 5px;
+    background-color: #666666;
+    color: #fffefe;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+}
+
+.registrationButton:hover,
+.authorizationButton:hover,
+.indexButton:hover,
+.exit:hover,
+.addWondersButton:hover,
+.addWondersButton1:hover{
+    background-color: #949494;
+}
+.editingBtn{
+    margin-right: 0;
+    border-radius: 5px;
+    color: blue;
+    padding: 0 5px;
+}
+
+.headerIndex{
+    padding-left: 20px;
+}
+.containerHeaderBtn{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.content-main{
+    max-width: 800px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content-main-h1{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-main-img{
+    display: flex;
+    text-align: center;
+    padding: 40px;
+}
+.content-main-img img{
+    width: 80%;
+}
+.content-main h1{
+    font-size: 90px;
+}
+.content-main h1:hover{
+    color: blue;
+}
+.content-about{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    
+}
+#content-body{
+    padding: 30px 0;
+    height: auto;
+}
+
+.container-header{
+    position: sticky;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    height: 650px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content-body img{
+    padding: 20px 0;
+    height: auto;
+    width: 100%;
+}
+#content-body h1{
+    font-size: 50px;
+    text-align: center;
+}
+#content-body a{
+    text-decoration: none;
+}
+#content-body a:hover{
+    color: red;
+}
+.container-body{
+    border-bottom: 1px rgb(61, 61, 61) solid;
+    margin: 20px;
+}
+#fileInput{
+    text-align: center;
+    margin: 10px;
+} 
+
+#uploadButton{
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.addWomdersHeader h1:hover,
+#uploadButton:hover{
+    color: blue;
+}
+.addWomdersHeader h3{
+    padding: 10px 0 0 0;
+}
+#addWomdersInp{
+    border-radius: 5px;
+   
+}
+#addWomdersTextarea{
+    border-radius: 5px;
+}
+.addWomdersBtnImg{
+    background-color: #fff;
+}
+
+.addWomdersFooterBtn{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0 0 0;
+    width: 200px;
+    font-size: 20px;
+}
+
+.addWomdersFooterBtn:hover{
+    color: blue;
+}
+
+.postsBtn{
+    text-align: end;
+    margin: 0 0 10px 0;
+}
+
+.postForm-main{
+    display: grid;
+    grid-template-columns: 42% 60%;
+    max-width: 800px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.postForm-main-img {
+    display: flex;
+    text-align: center;
+    padding: 40px;
+  
+}
+.postForm-main-img img{
+    width: 60%;
+}
+.postForm-main-h1{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.postForm-main-h1 h1{
+    font-size: 80px;
+}
+.postForm-main-h1 h1:hover{
+   color: blue;
+}
+#postFormСontainer{
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+#postLink{
+    color: blue;
+}
+#postsContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+   
+}
+.postForm{
+    text-align: center;
+    width: 25%;
+    border: 1px rgb(61, 61, 61) solid;
+    position:fixed;
+    right: 10px;;
+    bottom: 60px;
+    border-radius: 5px;
+    padding: 0 0 10px;
+    display: none;
+}
+.postForm h3{
+    font-size: 25px;
+}
+
+#postFormInp,
+#postFormTextarea{
+    width: 90%;
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+    .addWondersButton,
+    .addWondersButton1,
+    .registrationButton,
+    .authorizationButton,
+    .indexButton,
+    .editingBtn,
+    .exit{
+        font-size: 14px;
+    }
+    #content-body h1{
+        font-size: 45px;
+    }
+    .content-main h1{
+        font-size: 80px;
+    }
+    .headerAuthUser p{
+        font-size: 28px;
+        padding: 10px;
+    }
+    .footer p{
+        font-size: 20px;
+    }
+    .postForm-main-h1 h1{
+        font-size: 60px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+    .addWondersButton,
+    .addWondersButton1,
+    .registrationButton,
+    .authorizationButton,
+    .indexButton,
+    .editingBtn,
+    .exit{
+        font-size: 13px;
+    }
+    #content-body h1{
+        font-size: 40px;
+        
+    }
+    .content-main h1{
+        font-size: 70px;
+    }
+    .headerAuthUser p{
+        font-size: 22px;
+        padding: 10px;
+    }
+    .footer p{
+        font-size: 16px;
+       
+    }
+    .postForm-main-h1 h1{
+        font-size: 50px;
+    }
+
+}
+@media screen and  (min-width: 300px) and (max-width: 600px){
+    .registrationButton,
+    .authorizationButton,
+    .indexButton,
+    .editingBtn,
+    .exit{
+        font-size: 12px;
+    }
+    .addWondersButton,
+    .addWondersButton1{
+        font-size: 10px;
+    }
+    #content-body h1{
+        font-size: 35px;
+        
+    }
+    .content-main h1{
+        font-size: 60px;
+    }
+    .headerAuthUser p{
+        font-size: 16px;
+    
+    }
+    .postForm-main-h1 h1{
+        font-size: 40px;
+    }
+
+}

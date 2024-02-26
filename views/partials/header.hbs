@@ -1,0 +1,31 @@
+{{#if tokenIsPresent}}
+<header id="header">
+    <div class="headerAuthIndex">
+        <button class="indexButton">на главную</button>
+    </div>
+    <div class="addWonders">
+        <button class="addWondersButton">добавить чудо</button>
+        <button class="addWondersButton1">ваши чудеса</button>
+    </div>
+    <div class="headerAuthUser">
+        <p>
+            {{user}}
+        </p>
+    </div>   
+    <div class="headerExitBtn">
+        <button class="exit" id="exit">выйти</button>
+    </div>
+</header>
+{{else}}
+<header class="header">
+    <div class="headerIndex">
+        <button class="indexButton">на главную</button>
+    </div>
+    <div class="containerHeaderBtn">
+        <button class="registrationButton">регистрация</button>
+        <button class="authorizationButton">авторизация</button>
+    </div>
+</header>
+{{/if}}
+
+

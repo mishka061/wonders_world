@@ -1,0 +1,42 @@
+<form id="formElem" action="/addWonders" method="POST" enctype="multipart/form-data">
+  <div class="container-header">
+    <div class="addWomdersHeader">
+      <h1>
+        создайте свое чудо
+      </h1>
+    </div>
+    <div class="addWomdersContainer">
+      <div class="addWomdersContainer2">
+        <h3>
+          напишите заголовок
+        </h3>
+        <div class="form-group">
+          <textarea name="heading" id="addWomdersInp" cols="30" rows="2"></textarea>
+        </div>
+        <h3>
+          напишите текст
+        </h3>
+        <div class="form-group">
+          <textarea name="text" id="addWomdersTextarea" cols="40" rows="10"></textarea>
+        </div>
+      </div>
+      <div class="addWomdersContainer1">
+        <div class="div">
+          <h3>
+            вставьте картинку
+          </h3>
+        </div>
+        <div class="addWomdersImg1">
+          <div class="form-group">
+            <input type="file" id="fileInput" name="image" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="addWomdersFooter">
+      <div class="form-group">
+        <input type="submit" name="submit" class="addWomdersFooterBtn" value="отправить" />
+      </div>
+    </div>
+  </div>
+</form>

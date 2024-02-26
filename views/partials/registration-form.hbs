@@ -1,0 +1,23 @@
+
+<form class="form-signap" action="/admin/registration" method="post">
+  <h2>Регистрация</h2>
+  <p>Создайте свой аккаунт за минуту</p>
+  <div class="form-group">
+    <input type="text" id="login" class="form-control" name="login" placeholder="введите логин" autocomplete="login" minlength="3" maxlength="20" required>
+  </div>
+  <div class="form-group">
+    <input type="email" id="emailInput" name="email" class="form-control" placeholder="email" autocomplete="email" required>
+  </div>
+  <div class="form-group">
+    <input type="password" id="password-input" name="password" class="form-control password-input" placeholder="пароль" autocomplete="new-password" minlength="8" maxlength="20" required>
+  </div>
+  <div class="form-group">
+    <input type="password" id="confirm-password-input" name="confirm-password" class="form-control confirm-password-input" placeholder="повторите пароль" autocomplete="new-password" minlength="8" maxlength="20" required>
+    <div class="error-message" id="confirmPasswordError">Пароли не совпадают</div>
+  </div>
+  <input type="submit" name="submit" class="btn btn-outline-primary form-control" value="отправить">
+</form>
+
+
+
+

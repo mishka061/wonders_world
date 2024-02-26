@@ -1,0 +1,48 @@
+<main id="mainPostContent">
+<div class="container-fluid">
+  <div class="postFormСontainer">
+    <div class="postForm-main">
+      <div class="postForm-main-img">
+        <div>
+          <img src="/Rotating-Globe-from-Wikipedia.gif" alt="" srcset="" />
+        </div>
+      </div>
+      <div class="postForm-main-h1">
+        <div>
+          <h1>Ваши чудеса</h1>
+        </div>
+      </div>
+    </div>
+    <div id="postsContainer">
+      <div></div>
+      <div id="content-body">
+        {{#each posts}}
+          <div class="container-body">
+            <div id="postLink">
+              <h1>{{heading}}</h1>
+            </div>
+            <div id="postText">
+              <h5>{{text}}</h5>
+            </div>
+
+            <div id="postImg">
+              <img src="/{{img}}" />
+            </div>
+            {{!-- {{#if tokenIsPresent}} --}}
+            <div class="postsBtn">
+
+              <button class="editingBtn" data-id="{{_id}}">Редактирование записи </button>
+            </div>
+             {{!-- {{/if}}  --}}
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+
+
+
+
